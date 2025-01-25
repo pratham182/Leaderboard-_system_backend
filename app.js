@@ -16,7 +16,7 @@ app.use(express.json());
 
 app.use(
     cors({
-      origin: 'http://localhost:5173',
+      origin: 'https://leaderboard-frontend-c5p9.vercel.app',
       methods: ['GET', 'POST', 'PUT', 'DELETE'],
       credentials: true,
     })
